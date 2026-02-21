@@ -1,16 +1,9 @@
 """
-BAD CODE VERSION (intentionally messy)
-Goal: A simple CLI calculator that violates best practices.
-Run: python bad_calculator.py
+By: Ahmad Idris
 """
 
-# Violations on purpose:
-# - DRY violation: duplicated logic everywhere
-# - Single Responsibility violation: functions do many unrelated things
-# - Separation of Concerns violation: UI + logic + formatting mixed together
-# - Clean code issues: vague names, magic numbers, globals, inconsistent style
 
-x = 0  # global state for no good reason
+x = 0  
 y = 0
 
 def doStuff():  # vague name, huge function, mixes everything
