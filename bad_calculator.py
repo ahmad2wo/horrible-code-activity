@@ -15,7 +15,6 @@ def doStuff():  # vague name, huge function, mixes everything
         print("bye")
         return
 
-    # no validation; crashes easily
     x = float(input("number 1: "))
     y = float(input("number 2: "))
 
@@ -46,14 +45,12 @@ def doStuff():  # vague name, huge function, mixes everything
         print("RESULT IS:", r)
         print("done\n")
     elif z == "6":
-        # average: random extra math, weird formatting
         r = (x + y) / 2
         print("AVG:", r, " (", x, "+", y, ")/2")
         print("done\n")
     else:
         print("unknown option... i guess try again")
 
-    # recursive call instead of loop (bad idea)
     doStuff()
 
 
