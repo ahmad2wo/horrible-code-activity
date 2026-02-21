@@ -33,7 +33,6 @@ def doStuff():  # vague name, huge function, mixes everything
         print("RESULT IS:", r)
         print("done\n")
     elif z == "4":
-        # weird “fix”: magic number instead of proper check
         if y == 0:
             print("cant divide by 0 so i'll just divide by 0.00001 lol")
             r = x / 0.00001
@@ -43,7 +42,6 @@ def doStuff():  # vague name, huge function, mixes everything
             print("RESULT IS:", r)
         print("done\n")
     elif z == "5":
-        # power: still duplicates everything
         r = x ** y
         print("RESULT IS:", r)
         print("done\n")
@@ -59,8 +57,7 @@ def doStuff():  # vague name, huge function, mixes everything
     doStuff()
 
 
-def helper(a, b, op):  # still mixes logic + text decisions
-    # not even used consistently
+def helper(a, b, op):  
     if op == 1:
         return a + b
     if op == 2:
