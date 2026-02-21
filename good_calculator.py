@@ -1,7 +1,5 @@
 """
-GOOD CODE VERSION (clean + best practices)
-Goal: A simple CLI calculator that follows best practices.
-Run: python good_calculator.py
+By: Ahmad Idris
 """
 
 from __future__ import annotations
@@ -9,11 +7,6 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Callable, Dict, Tuple
 
-
-# Principles demonstrated:
-# 1) DRY: one shared flow; operations stored in a map, no copy/paste branches
-# 2) Single Responsibility: input parsing, calculation, and UI are separate
-# 3) Separation of Concerns: pure functions do math; CLI handles user interaction
 
 
 @dataclass(frozen=True)
